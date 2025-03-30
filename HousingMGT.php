@@ -42,7 +42,7 @@ include 'template/header.php';
                     <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
                 </div>
                 <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
-                    <li>User Management</li>
+                    <li>Housing Management</li>
                 </ul>
             </div>
 
@@ -114,9 +114,7 @@ include 'template/header.php';
                                         </tr>
                                         <?php
                                             }
-                                        } else {
-                                            echo "<tr><td colspan='7' class='text-center px-6 py-4 text-slate-500'>No data available</td></tr>";
-                                        }
+                                        } 
                                         ?>
                                     </tbody>
                                 </table>
@@ -475,7 +473,7 @@ include 'template/header.php';
                                 .css('margin-bottom', '0');
 
                             $('.create-btn').html(
-                                '<a href="HouseListing.php" class="btn bg-primary text-white ml-4 px-4 py-2 rounded-lg hover:bg-primary-dark">Create New Account</a>'
+                                '<a href="HouseListing.php" class="btn bg-primary text-white ml-4 px-4 py-2 rounded-lg hover:bg-primary-dark">Add New House</a>'
                             );
                              // Add event listener for edit buttons
     $(document).on('click', '.edit-house-btn', function() {
