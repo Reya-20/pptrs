@@ -1,4 +1,4 @@
-﻿<?php include 'template/header.php'; ?>
+<?php include 'template/header.php'; ?>
 
 <body x-data="" class="is-header-blur" x-bind="$store.global.documentBody">
     <!-- App preloader-->
@@ -30,7 +30,7 @@
           <div class="col-span-12 lg:col-span-8">
             <div class="card">
               <div class="tabs flex flex-col">
-                <form action="config/configuration/editHouse.php" method="post" enctype="multipart/form-data">
+                <form action="config/configuration/addHouse.php" method="post" enctype="multipart/form-data">
                 <div class="tab-content p-4 sm:p-5">
                   <div class="space-y-5">
                     <label class="block">
